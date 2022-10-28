@@ -4,13 +4,13 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const sgMail = require("@sendgrid/mail");
 
-const url = `mongodb+srv://Badea:Badea2007@cluster0.q5tsloh.mongodb.net/ContactForm`;
+const url = `Add your mongoDB URL`;
 
 let PORT = process.env.PORT || 5700;
 
-let apiKey = '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'
-let myEmail = 'badeakhalboos@gmail.com'
-let senderEmail = 'badeatapatio@gmail.com'
+let apiKey = 'Add your API_Key on Sendgrid'
+let myEmail = 'Add your Email'
+let senderEmail = 'Add your Sender email'
 
 const NewDate = new Date()
 
